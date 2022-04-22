@@ -52,7 +52,7 @@ class VoucherOrderController(private var voucherOrderService: VoucherOrderServic
 
         var restTemplate = RestTemplate()
 
-        var url = "https://theyeyak-dev.tblm.co/voucher-admin/cancel-voucher-orders" // 외부 api
+        var url = "외부 API 입력" // 외부 api
 
         return restTemplate.postForObject(url, cancelIds, OrderCancelResult::class.java)
     }
