@@ -54,23 +54,13 @@
 ### Mongodb
 고객의 계정을 검색/변경할때 사용합니다. (customerpointaccounts)
 조회한 주문 ID로 생성된 포인트를 조회할 때 사용합니다. (customerpoints)
-```
-URI: mongodb+srv://tm-dev.iv9nb.mongodb.net/posable
-```
 
 ### MYSQL
 고객이 주문한 내역을 조회할 때 사용합니다. (voucher_order)
 
-```
-URI: mysql://tm-new.c5itfod3ti8q.ap-northeast-2.rds.amazonaws.com/tm-b2c
-```
 
 ### 상품권 환불 API
 주문 ID로 상품권을 환불 요청할 때 사용합니다.
-```
-Method: POST
-Endpoint: https://theyeyak-dev.tblm.co/voucher-admin/cancel-voucher-orders
-```
 
 **Request Body**
 | Name     | Type         | Description    |
